@@ -14,8 +14,10 @@ Led::Led(string name, int pin) {
 	_name = name;
 	_pin = pin;
 	_state = LED_OFF;
+	_delay = 0;
 	_blinking = false;
 	pinMode(_pin, OUTPUT);
+
 }
 
 void Led::On() {

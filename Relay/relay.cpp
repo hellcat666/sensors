@@ -17,6 +17,7 @@ Relay::Relay(string name, ushort pin) {
 	_name = name;
 	_pin = pin;
 	_state = RELAY_OFF;
+	_delay = 0;
 	_blinking = false;
 	pinMode(_pin, OUTPUT);
 }

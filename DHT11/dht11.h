@@ -44,7 +44,7 @@ private:
     thread _dht11;
     atomic<bool> _measuring;
     DHT11_STATE _state;
-    OnDHT11Listener* _listener;
+//    OnDHT11Listener* _listener;
     list<OnDHT11Listener *> _listeners;
 
 public:

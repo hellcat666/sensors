@@ -36,7 +36,7 @@ private:
 	int _delay;
     std::thread _blink;
 	std::atomic<bool> _blinking;
-	OnRelayListener* _listener;
+//	OnRelayListener* _listener;
 	list<OnRelayListener *> _listeners;
 
 public:
